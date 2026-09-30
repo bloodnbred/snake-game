@@ -1,0 +1,12 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "A dependency-free Snake game that runs in the browser",
+  "private": true,
+  "scripts": {
+    "start": "node serve.js",
+    "test": "node test/markup.test.js && node test/game.test.js && node test/functional.test.js"
+  },
+  "keywords": ["game", "snake", "canvas", "vanilla-js"],
+  "license": "MIT"
+}

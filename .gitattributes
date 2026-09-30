@@ -1,0 +1,6 @@
+# Normalize line endings in the repo; check out per platform.
+* text=auto eol=lf
+
+# Windows scripts get CRLF so they run correctly when double-clicked.
+*.bat text eol=crlf
+*.cmd text eol=crlf
